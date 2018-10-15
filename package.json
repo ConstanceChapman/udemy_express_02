@@ -1,0 +1,16 @@
+{
+  "name": "udemy_express_02",
+  "version": "1.0.0",
+  "description": "app to share public or write private stories",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.3.3",
+    "nodemon": "^1.18.4"
+  }
+}
