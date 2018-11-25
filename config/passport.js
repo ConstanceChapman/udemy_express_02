@@ -13,8 +13,6 @@ module.exports = function(passport){
       callbackURL: '/auth/google/callback',
       proxy: true
     }, (accessToken, refreshToken, profile, done) => {
-      // console.log(accessToken);
-      // console.log(profile);
       const pic = profile.photos[0].value;
       const image = pic.substring(0, pic.indexOf('?'));
       const newUser = {
